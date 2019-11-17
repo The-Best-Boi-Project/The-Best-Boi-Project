@@ -1,2 +1,2 @@
 # The-Best-Boi-Project
-Will hold
+Will hold the website and models and a gallery

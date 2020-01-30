@@ -2,7 +2,11 @@
   "settings": {
     "name": "The Best Boi Project",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "currentPage": "index.html",
+=======
+    "currentPage": "page3.html",
+>>>>>>> parent of 711d392... 3.8
 =======
     "currentPage": "page3.html",
 >>>>>>> parent of 711d392... 3.8
@@ -57,6 +61,9 @@
     "gdpr": false,
     "publishType": "local",
     "publishPath": "file:///C:/Program%20Files/The-Best-Boi-Project"
+<<<<<<< HEAD
+>>>>>>> parent of 711d392... 3.8
+=======
 >>>>>>> parent of 711d392... 3.8
   },
   "pages": {

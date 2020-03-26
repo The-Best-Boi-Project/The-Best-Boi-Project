@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "The Best Boi Project",
-    "currentPage": "page2.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -39,7 +39,7 @@
       }
     ],
     "uniqCompNum": 136,
-    "versionPublish": "4.11.6",
+    "versionPublish": "4.11.5",
     "screenshot": "screenshot.png",
     "favicon": false,
     "": "on",
@@ -49,7 +49,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/cedri/OneDrive/Desktop/Documents"
   },
   "pages": {
     "index.html": {
@@ -1080,11 +1082,11 @@
           "_name": "image2",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/page-4.png\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
           "_cid": "rQ2Zy4w90Y",
-          "_anchor": "image2-3j",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "image2-3j"
         },
         {
           "alias": false,

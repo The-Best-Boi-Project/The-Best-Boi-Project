@@ -51,9 +51,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/cedri/OneDrive/Desktop/Documents"
+    "gdpr": false
   },
   "pages": {
     "index.html": {

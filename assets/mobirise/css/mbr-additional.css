@@ -2281,6 +2281,52 @@ section.lazy-placeholder:after {
   text-align: center;
   color: #232323;
 }
+.cid-scgZ4ch9Jj {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-scgZ4ch9Jj P {
+  color: #767676;
+}
+.cid-scgZXmcYrx {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-scgZXmcYrx h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-scgZXmcYrx p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-top: 2rem;
+}
+.cid-scgZXmcYrx .mbr-section-btn {
+  padding-top: 2.5rem;
+}
+.cid-scgZXmcYrx .mbr-section-btn a {
+  margin: 0;
+}
+.cid-scgZXmcYrx .mbr-text {
+  color: #767676;
+}
+.cid-scgZXmcYrx .card-wrapper {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .cid-scgZXmcYrx .card:not(.last-child) {
+    padding-bottom: 2rem;
+  }
+}
+.cid-scgZXmcYrx .card-title {
+  text-align: center;
+  color: #232323;
+}
 .cid-rJen6QCSD4 {
   padding-top: 60px;
   padding-bottom: 30px;

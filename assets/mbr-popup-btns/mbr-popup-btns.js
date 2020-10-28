@@ -1,10 +1,2 @@
-var isBuilder = $('html').hasClass('is-builder');
 
-if (!isBuilder) {
-    if(typeof window.initPopupBtnPlugin === 'undefined'){
-        window.initPopupBtnPlugin = true;
-        $('section.popup-btn-cards .card-wrapper').each(function(index, el) {
-            $(this).addClass('popup-btn');
-        });        
-    }
-}
+var isBuilder=$("html").hasClass("is-builder");isBuilder||"undefined"!==typeof window.initPopupBtnPlugin||(window.initPopupBtnPlugin=!0,$("section.popup-btn-cards .card-wrapper").each(function(a,b){$(this).addClass("popup-btn")}));

@@ -42,7 +42,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 199,
+    "uniqCompNum": 202,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/spinboi-logo.png",
@@ -54,8 +54,6 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishType": "local",
-    "publishPath": "file:///C:/Program%20Files/The-Best-Boi-Project",
     "imageResize": false
   },
   "pages": {
@@ -63,7 +61,7 @@
       "settings": {
         "meta_descr": "About the Bestboi Project",
         "title": "About Us",
-        "order": 2,
+        "order": 1,
         "meta_image": "@PROJECT_PATH@/assets/images/floatedboi-2.png"
       },
       "components": [
@@ -4039,7 +4037,7 @@
         "meta_descr": "Rusty's Bestboi Commissions",
         "title": "Comissions",
         "order": 9,
-        "meta_image": "@PROJECT_PATH@/assets/images/floatedboi-2.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/floatedboi-4.png"
       },
       "components": [
         {

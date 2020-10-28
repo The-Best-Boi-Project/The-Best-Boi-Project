@@ -54,6 +54,8 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Program%20Files/The-Best-Boi-Project",
     "imageResize": false
   },
   "pages": {

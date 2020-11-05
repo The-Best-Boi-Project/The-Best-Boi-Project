@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Bestboi Revamp",
-    "currentPage": "index.html",
+    "currentPage": "Mirrors.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -52,7 +52,9 @@
     "gdpr": false,
     "uniqCompNum": 123,
     "versionPublish": "5.2.0",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/cedri/OneDrive/Desktop/Documents/bestboiwebsite"
   },
   "pages": {
     "index.html": {

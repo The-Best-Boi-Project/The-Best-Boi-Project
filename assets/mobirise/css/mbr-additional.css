@@ -8965,7 +8965,7 @@ a {
 }
 .cid-siH7QMSvAb {
   padding-top: 2rem;
-  padding-bottom: 8rem;
+  padding-bottom: 2rem;
   background-image: url("../../../assets/images/blurblender-1920x1023.png");
 }
 .cid-siH7QMSvAb .team-card {
@@ -9039,6 +9039,84 @@ a {
   color: #ffffff;
 }
 .cid-siH7QMSvAb .mbr-section-title {
+  color: #ffffff;
+}
+.cid-siRQ5WBPWp {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  background-image: url("../../../assets/images/blurblender-1920x1023.png");
+}
+.cid-siRQ5WBPWp .team-card {
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+.cid-siRQ5WBPWp .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-siRQ5WBPWp .card-wrap {
+  background: #232323;
+  border-radius: 4px;
+}
+@media (max-width: 991px) {
+  .cid-siRQ5WBPWp .card-wrap {
+    margin-bottom: 2rem;
+  }
+}
+.cid-siRQ5WBPWp .card-wrap .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cid-siRQ5WBPWp .card-wrap .content-wrap {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-siRQ5WBPWp .card-wrap .content-wrap {
+    padding: 1rem;
+  }
+}
+.cid-siRQ5WBPWp .social-row {
+  text-align: center;
+}
+.cid-siRQ5WBPWp .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-siRQ5WBPWp .social-row .soc-item .mbr-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+}
+.cid-siRQ5WBPWp .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+.cid-siRQ5WBPWp .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+.cid-siRQ5WBPWp .mbr-role,
+.cid-siRQ5WBPWp .social-row {
+  color: #ffffff;
+}
+.cid-siRQ5WBPWp .card-title,
+.cid-siRQ5WBPWp .social-row {
+  color: #ffffff;
+}
+.cid-siRQ5WBPWp .card-text,
+.cid-siRQ5WBPWp .mbr-section-btn,
+.cid-siRQ5WBPWp .social-row {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-siRQ5WBPWp .mbr-section-title {
   color: #ffffff;
 }
 .cid-sePuo07aQN {

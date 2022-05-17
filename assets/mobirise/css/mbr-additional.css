@@ -3522,8 +3522,8 @@ a {
   background-color: #232323;
 }
 .cid-sePQzoUlf9 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-image: url("../../../assets/images/capture33.png");
 }
 .cid-sePQzoUlf9 .mbr-overlay {
@@ -3534,7 +3534,7 @@ a {
 .cid-sePQzoUlf9 .item-img {
   width: 100%;
   height: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
 }
 .cid-sePQzoUlf9 .item:focus,
@@ -9097,7 +9097,7 @@ a {
 .cid-sePuo07aQN {
   padding-top: 6rem;
   padding-bottom: 4rem;
-  background-image: url("../../../assets/images/ce5afd2a608357b9cee34c78e1bd90cd-1680x1050.jpg");
+  background-image: url("../../../assets/images/cheeryseparategoldeneye-size-restricted.gif");
 }
 .cid-sePuo07aQN .team-card {
   margin-bottom: 2rem;
@@ -9170,6 +9170,9 @@ a {
   color: #ffffff;
 }
 .cid-sePuo07aQN .mbr-section-title {
+  color: #ffffff;
+}
+.cid-sePuo07aQN .mbr-section-subtitle {
   color: #ffffff;
 }
 .cid-seKh7RjAlF {

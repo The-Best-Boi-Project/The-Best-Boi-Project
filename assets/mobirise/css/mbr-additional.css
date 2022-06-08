@@ -1848,6 +1848,95 @@ a {
 .cid-t7ZxPRzJsd .media-container-row .mbr-text {
   text-align: center;
 }
+.cid-t87E9v4dgh {
+  background-image: url("../../../assets/images/bestboi-display-comms-4k-22-05-2021-21-50-38-2000x1125.png");
+}
+.cid-t87E9v4dgh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-t87E9v4dgh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-t87E9v4dgh .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-t87E9v4dgh .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-t87E9v4dgh .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-t87E9v4dgh .mbr-section-title {
+  color: #ffffff;
+}
+.cid-t87E9v4dgh .mbr-text,
+.cid-t87E9v4dgh .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-t87E9v4dgh model-viewer {
+  width: 800px;
+  height: 650px;
+  background-color: #232323;
+}
+.cid-t87E9v4dgh .progress-bar {
+  display: block;
+  width: 33%;
+  height: 10%;
+  max-height: 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 25px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5), 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cid-t87E9v4dgh .progress-bar.hide {
+  visibility: hidden;
+  transition: visibility 0.3s;
+}
+.cid-t87E9v4dgh .update-bar {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 0%;
+  height: 100%;
+  border-radius: 25px;
+  float: left;
+  transition: width 0.3s;
+}
+@keyframes circle {
+  from {
+    transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg);
+  }
+}
+@keyframes elongate {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+.cid-t87E9v4dgh model-viewer > #ar-prompt {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  animation: elongate 2s infinite ease-in-out alternate;
+  display: none;
+}
 .cid-t7ZxPQA58F .navbar-dropdown {
   position: relative !important;
 }
@@ -2203,113 +2292,6 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
-}
-.cid-t86N6pCA4e {
-  background-image: url("../../../assets/images/bestboi-display-comms-4k-22-05-2021-21-50-38-2000x1125.png");
-}
-.cid-t86N6pCA4e .mbr-section-title {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-t86N6pCA4e .mbr-text,
-.cid-t86N6pCA4e .mbr-section-btn {
-  color: #ffffff;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  .cid-t86N6pCA4e .mbr-section-title,
-  .cid-t86N6pCA4e .mbr-section-btn,
-  .cid-t86N6pCA4e .mbr-text {
-    text-align: center;
-  }
-}
-.cid-t87f9JBIZU {
-  padding-top: 0rem;
-  padding-bottom: 2rem;
-  background-color: #232323;
-}
-.cid-t87f9JBIZU .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-t87f9JBIZU .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-t87f9JBIZU .image-wrap img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-t87f9JBIZU .image-wrap img {
-    display: block;
-    margin: auto;
-    width: 100%;
-  }
-}
-.cid-t87f9JBIZU model-viewer {
-  width: 992px;
-  height: 600px;
-  background-color: #232323;
-}
-.cid-t87f9JBIZU .progress-bar {
-  display: block;
-  width: 33%;
-  height: 10%;
-  max-height: 2%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  border-radius: 25px;
-  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5), 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.cid-t87f9JBIZU .progress-bar.hide {
-  visibility: hidden;
-  transition: visibility 0.3s;
-}
-.cid-t87f9JBIZU .update-bar {
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 0%;
-  height: 100%;
-  border-radius: 25px;
-  float: left;
-  transition: width 0.3s;
-}
-@keyframes circle {
-  from {
-    transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
-  }
-  to {
-    transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg);
-  }
-}
-@keyframes elongate {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(-100px);
-  }
-}
-.cid-t87f9JBIZU model-viewer > #ar-prompt {
-  position: absolute;
-  left: 50%;
-  bottom: 60px;
-  animation: elongate 2s infinite ease-in-out alternate;
-  display: none;
-}
-.cid-t87f9JBIZU .mbr-section-title {
-  color: #ffffff;
-}
-.cid-t87f9JBIZU .mbr-text,
-.cid-t87f9JBIZU .mbr-section-btn {
-  color: #fafafa;
 }
 .cid-t87y8HpXAb {
   padding-top: 6rem;

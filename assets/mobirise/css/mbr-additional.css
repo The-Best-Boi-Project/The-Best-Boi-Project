@@ -1864,6 +1864,9 @@ a {
   top: 0;
 }
 .cid-t87E9v4dgh .row {
+  flex-direction: row-reverse;
+}
+.cid-t87E9v4dgh .row {
   align-items: center;
 }
 @media (max-width: 991px) {
@@ -1886,7 +1889,7 @@ a {
 .cid-t87E9v4dgh model-viewer {
   width: 800px;
   height: 650px;
-  background-color: #232323;
+  background-color: unset;
 }
 .cid-t87E9v4dgh .progress-bar {
   display: block;

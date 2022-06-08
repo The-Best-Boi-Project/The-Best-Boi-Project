@@ -2226,7 +2226,7 @@ a {
 .cid-t87f9JBIZU {
   padding-top: 0rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-color: #232323;
 }
 .cid-t87f9JBIZU .mbr-fallback-image.disabled {
   display: none;
@@ -2253,7 +2253,7 @@ a {
 .cid-t87f9JBIZU model-viewer {
   width: 992px;
   height: 600px;
-  background-color: #ffffff;
+  background-color: #232323;
 }
 .cid-t87f9JBIZU .progress-bar {
   display: block;
@@ -2281,35 +2281,6 @@ a {
   float: left;
   transition: width 0.3s;
 }
-.cid-t87f9JBIZU #ar-button {
-  background-image: url(../../../assets/images/ar-icon.png);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: 12px 50%;
-  background-color: #fff;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  bottom: 16px;
-  padding: 0px 16px 0px 40px;
-  font-family: Roboto Regular, Helvetica Neue, sans-serif;
-  font-size: 14px;
-  color: #4285f4;
-  height: 36px;
-  line-height: 36px;
-  border-radius: 18px;
-  border: 1px solid #DADCE0;
-}
-.cid-t87f9JBIZU #ar-button:active {
-  background-color: #E8EAED;
-}
-.cid-t87f9JBIZU #ar-button:focus {
-  outline: none;
-}
-.cid-t87f9JBIZU #ar-button:focus-visible {
-  outline: 1px solid #4285f4;
-}
 @keyframes circle {
   from {
     transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
@@ -2333,11 +2304,12 @@ a {
   animation: elongate 2s infinite ease-in-out alternate;
   display: none;
 }
-.cid-t87f9JBIZU model-viewer[ar-status="session-started"] > #ar-prompt {
-  display: block;
+.cid-t87f9JBIZU .mbr-section-title {
+  color: #ffffff;
 }
-.cid-t87f9JBIZU model-viewer > #ar-prompt > img {
-  animation: circle 4s linear infinite;
+.cid-t87f9JBIZU .mbr-text,
+.cid-t87f9JBIZU .mbr-section-btn {
+  color: #fafafa;
 }
 .cid-t7ZxPRzJsd {
   padding-top: 2rem;

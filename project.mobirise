@@ -52,7 +52,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "1xf2mpryj4",
+    "mbrsiteDomain": "qowf7esuot",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -2080,7 +2080,7 @@
             "model-viewer": {
               "width": "992px",
               "height": "600px",
-              "background-color": "#ffffff"
+              "background-color": "#232323"
             },
             ".progress-bar": {
               "display": "block",
@@ -2108,35 +2108,6 @@
               "float": "left",
               "transition": "width 0.3s"
             },
-            "#ar-button": {
-              "background-image": "url(ar_icon.png)",
-              "background-repeat": "no-repeat",
-              "background-size": "20px 20px",
-              "background-position": "12px 50%",
-              "background-color": "#fff",
-              "position": "absolute",
-              "left": "50%",
-              "transform": "translateX(-50%)",
-              "white-space": "nowrap",
-              "bottom": "16px",
-              "padding": "0px 16px 0px 40px",
-              "font-family": "Roboto Regular, Helvetica Neue, sans-serif",
-              "font-size": "14px",
-              "color": "#4285f4",
-              "height": "36px",
-              "line-height": "36px",
-              "border-radius": "18px",
-              "border": "1px solid #DADCE0"
-            },
-            "#ar-button:active": {
-              "background-color": "#E8EAED"
-            },
-            "#ar-button:focus": {
-              "outline": "none"
-            },
-            "#ar-button:focus-visible": {
-              "outline": "1px solid #4285f4"
-            },
             "@keyframes circle": {
               "from": {
                 "transform": "translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg)"
@@ -2160,16 +2131,16 @@
               "animation": "elongate 2s infinite ease-in-out alternate",
               "display": "none"
             },
-            "model-viewer[ar-status=\"session-started\"] > #ar-prompt": {
-              "display": "block"
+            ".mbr-section-title": {
+              "color": "#ffffff"
             },
-            "model-viewer > #ar-prompt > img": {
-              "animation": "circle 4s linear infinite"
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#fafafa"
             }
           },
           "_name": "header9",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n<script src=\"https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js\" defer></script>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"10\" condition=\"showImage\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"text-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <div class=\"image-wrap mb-4\" mbr-if=\"showImage\">\n                    <model-viewer bounds=\"tight\" enable-pan src=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/BestBoi%20Chibi.glb\" ar ar-modes=\"webxr scene-viewer quick-look\" camera-controls environment-image=\"neutral\" poster=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/Chibiposter.png\" shadow-intensity=\"1\">\n      <div class=\"progress-bar hide\" slot=\"progress-bar\">\n          <div class=\"update-bar\"></div>\n      </div>\n            <div id=\"ar-prompt\">\n          <img src=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/ar_hand_prompt.png\">\n      </div>\n    </model-viewer>  \n    <script src=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/script.js\"></script>\n    <!-- Loads <model-viewer> for browsers: -->\n    <script type=\"module\" src=\"https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js\"></script>\n                </div>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Website Builder Software</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Intro with an image above text. Click on the image to replace it. Key differences from traditional website builders: Minimalistic, extremely easy-to-use interface; Mobile-friendliness, latest website blocks and techniques \"out-the-box\"; Free for commercial and non-profit use.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Download Now!</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View Demos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n<!-- <script src=\"https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js\" defer></script> -->\n<script type=\"module\" src=\"https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js\"></script>\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"10\" condition=\"showImage\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"text-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <div class=\"image-wrap mb-4\" mbr-if=\"showImage\">\n                    <model-viewer bounds=\"tight\" enable-pan src=\"BestBoi Chibi.glb\" camera-controls environment-image=\"neutral\" poster=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/Chibiposter.png\" shadow-intensity=\"1\">\n      <div class=\"progress-bar hide\" slot=\"progress-bar\">\n          <div class=\"update-bar\"></div>\n      </div>\n            <div id=\"ar-prompt\">\n          <img src=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/ar_hand_prompt.png\">\n      </div>\n    </model-viewer>  \n    <script src=\"https://github.com/The-Best-Boi-Project/The-Best-Boi-Project/raw/V3.0-Website/3dPreview/script.js\"></script>\n                </div>\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>*NEW* Chibi 3D Preview</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">See the full glory of this cute boi with the new embeded 3d viewer!</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Download Now!</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">View Demos</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t87f9JBIZU",
           "_anchor": "header9-1v",
           "_protectedParams": [],

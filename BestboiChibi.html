@@ -100,8 +100,8 @@
                     <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
                         <strong>Bestboi Chibi</strong></h1>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        New Bestboi in a cute chibi and polished Style! </p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-7" href="javascript:OpenModal('ChibiGumroadWarn')"><span class="fas fa-fw fa-download mbr-iconfont mbr-iconfont-btn"></span>Download</a> <a class="btn btn-secondary display-7" href="https://mobiri.se"><span class="fas fa-fw fa-file mbr-iconfont mbr-iconfont-btn"></span>Download SPP</a> <a class="btn btn-secondary display-7" href="BestboiChibi.html#info3-1w"><span class="fas fa-fw fa-tshirt mbr-iconfont mbr-iconfont-btn"></span>Clothing</a></div>
+                        New Bestboi in a cute chibi and polished Style!<br>You can move the preview on the right</p>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-7" href="https://bestboivrc.gumroad.com/l/chyBy"><span class="fas fa-fw fa-download mbr-iconfont mbr-iconfont-btn"></span>Download</a> <a class="btn btn-secondary display-7" href="https://mobiri.se"><span class="fas fa-fw fa-file mbr-iconfont mbr-iconfont-btn"></span>Download SPP</a> <a class="btn btn-secondary display-7" href="BestboiChibi.html#info3-1w"><span class="fas fa-fw fa-tshirt mbr-iconfont mbr-iconfont-btn"></span>Clothing</a></div>
                 </div>
             </div>
         </div>
@@ -157,79 +157,6 @@
             </div>
         </div>
     </div>
-</section>
-
-<section class="mbr-section" id="witsec-modal-window-block-1x" data-rv-view="1236">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="ChibiGumroadWarn" tabindex="-1" role="dialog" aria-labelledby="ChibiGumroadWarnLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="ChibiGumroadWarnLabel">Redirection to Gumroad</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="ChibiGumroadWarn_body">You will be redirected to gumroad as the model is published there and kept up-to-date</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://bestboivrc.gumroad.com/l/chyBy" class="no-anim btn btn-primary display-4" target="_new">Go to Gumroad</a></div></div>    </div>  </div></div><script> 
-document.addEventListener("DOMContentLoaded", function() { 
-  if(typeof jQuery === "function") {
-    $("#ChibiGumroadWarn").on("hidden.bs.modal", function () { 
-      var html = $( "#ChibiGumroadWarn_body" ).html(); 
-      $( "#ChibiGumroadWarn_body" ).empty(); 
-      $( "#ChibiGumroadWarn_body" ).append(html); 
-    }) 
-  } else { 
-      var mdw = document.getElementById("#ChibiGumroadWarn") 
-      mdw.addEventListener("hidden.bs.modal", function(event) { 
-        mdw.innerHTML = mdw.innerHTML; 
-      }); 
-  } 
-}); 
-</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if(typeof jQuery === "function") {
-				if ($('#' + modalName).length)
-					$('#' + modalName).modal('show');
-				else
-					alert("Sorry, but there is no modal for " + modalName);
-			} else {
-				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
-				mdw.show();
-			}
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   

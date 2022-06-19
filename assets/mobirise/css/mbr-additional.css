@@ -5419,35 +5419,6 @@ a {
     left: -1rem;
   }
 }
-.cid-t8RAUT4RC3 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/outfit-catalog-1-1137x1137.png");
-}
-.cid-t8RAUT4RC3 .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-t8RAUT4RC3 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-t8RAUT4RC3 .mbr-text,
-.cid-t8RAUT4RC3 .mbr-section-btn {
-  color: #232323;
-}
-.cid-t8RAUT4RC3 .card-title,
-.cid-t8RAUT4RC3 .card-box {
-  color: #ffffff;
-}
-.cid-t8RAUT4RC3 .mbr-text,
-.cid-t8RAUT4RC3 .link-wrap {
-  color: #ffffff;
-}
 .cid-t8RAUThWml {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -6114,8 +6085,8 @@ a {
   color: #ffffff;
 }
 .cid-t9eF5RTXbB {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
   background-image: url("../../../assets/images/bboi-portal-long-2000x375.jpeg");
 }
 .cid-t9eF5RTXbB .mbr-overlay {
@@ -6921,7 +6892,7 @@ a {
   }
 }
 .cid-t9euwFWVDk {
-  background-image: url("../../../assets/images/page16-meta-1280x720.png");
+  background-image: url("../../../assets/images/windowart1-7-1950x1139.png");
 }
 .cid-t9euwFWVDk .mbr-section-title {
   text-align: center;
@@ -6938,6 +6909,55 @@ a {
   .cid-t9euwFWVDk .mbr-text {
     text-align: center;
   }
+}
+.cid-t9eYBwX6iG {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  background-color: #232323;
+}
+.cid-t9eYBwX6iG img,
+.cid-t9eYBwX6iG .item-img {
+  width: 100%;
+}
+.cid-t9eYBwX6iG .item:focus,
+.cid-t9eYBwX6iG span:focus {
+  outline: none;
+}
+.cid-t9eYBwX6iG .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.cid-t9eYBwX6iG .item-wrapper {
+  position: unset;
+  border-radius: 4px;
+  background: #353535;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-t9eYBwX6iG .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-t9eYBwX6iG .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-t9eYBwX6iG .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-t9eYBwX6iG .mbr-section-title {
+  color: #ffffff;
+}
+.cid-t9eYBwX6iG .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-t9eYBwX6iG .item-title {
+  color: #ffffff;
+  text-align: center;
 }
 .cid-t8RAUThWml {
   padding-top: 2rem;

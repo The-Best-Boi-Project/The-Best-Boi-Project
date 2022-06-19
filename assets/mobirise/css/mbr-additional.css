@@ -4909,97 +4909,24 @@ a {
 .cid-t8RAK764zL .media-container-row .mbr-text {
   text-align: center;
 }
-.cid-t8RAUSi8ff {
-  background-image: url("../../../assets/images/bestboi-dutchie-thumbnail-1-837x837.png");
+.cid-t9f4Stj6nu {
+  background-image: url("../../../assets/images/page16-meta-1280x720.png");
 }
-.cid-t8RAUSi8ff .mbr-fallback-image.disabled {
-  display: none;
+.cid-t9f4Stj6nu .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
 }
-.cid-t8RAUSi8ff .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-t8RAUSi8ff .row {
-  flex-direction: row-reverse;
-}
-.cid-t8RAUSi8ff .row {
-  align-items: center;
+.cid-t9f4Stj6nu .mbr-text,
+.cid-t9f4Stj6nu .mbr-section-btn {
+  color: #ffffff;
+  text-align: center;
 }
 @media (max-width: 991px) {
-  .cid-t8RAUSi8ff .image-wrapper {
-    padding: 1rem;
+  .cid-t9f4Stj6nu .mbr-section-title,
+  .cid-t9f4Stj6nu .mbr-section-btn,
+  .cid-t9f4Stj6nu .mbr-text {
+    text-align: center;
   }
-}
-@media (min-width: 992px) {
-  .cid-t8RAUSi8ff .text-wrapper {
-    padding: 0 2rem;
-  }
-}
-.cid-t8RAUSi8ff .mbr-section-title {
-  color: #ffffff;
-}
-.cid-t8RAUSi8ff .mbr-text,
-.cid-t8RAUSi8ff .mbr-section-btn {
-  color: #ffffff;
-}
-.cid-t8RAUSi8ff model-viewer {
-  width: 600px;
-  height: 700px;
-  background-color: unset;
-}
-.cid-t8RAUSi8ff .progress-bar {
-  display: block;
-  width: 33%;
-  height: 10%;
-  max-height: 2%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  border-radius: 25px;
-  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5), 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.cid-t8RAUSi8ff .progress-bar.hide {
-  visibility: hidden;
-  transition: visibility 0.3s;
-}
-.cid-t8RAUSi8ff .update-bar {
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 0%;
-  height: 100%;
-  border-radius: 25px;
-  float: left;
-  transition: width 0.3s;
-}
-@keyframes circle {
-  from {
-    transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
-  }
-  to {
-    transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg);
-  }
-}
-@keyframes elongate {
-  from {
-    transform: translateX(100px);
-  }
-  to {
-    transform: translateX(-100px);
-  }
-}
-.cid-t8RAUSi8ff model-viewer > #ar-prompt {
-  position: absolute;
-  left: 50%;
-  bottom: 60px;
-  animation: elongate 2s infinite ease-in-out alternate;
-  display: none;
 }
 .cid-t8RAUSwVC4 {
   padding-top: 2rem;

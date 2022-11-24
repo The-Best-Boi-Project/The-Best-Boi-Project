@@ -188,11 +188,11 @@
 	
 	<div><div class="modal fade" id="SiteEntry" tabindex="-1" role="dialog" aria-labelledby="SiteEntryLabel" aria-hidden="true">  <div class="modal-dialog modal-lg modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="SiteEntryLabel">Notice</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="SiteEntry_body">This is the V3 Revision of the Website.
 
-Currently only the meet the team, about, worlds and donation pages are missing.
+If there is a missing page please notify me.
 
-Some download options are temporarily hidden due to the links not being available yet,
+its still new and might have an error here and there. Please report them to Julian_#1358
 
-its still new and might have an error here and there. Please report them to Julian_#1358</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Got it!</a></div><div class="mbr-section-btn"><a href="https://bestbois.com/ModelHub" class="no-anim btn btn-primary display-4" target="_new">Take me to the downloads</a></div></div>    </div>  </div></div><script> 
+Click anywhere out of this message to close it</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Got it!</a></div><div class="mbr-section-btn"><a href="https://bestbois.com/ModelHub" class="no-anim btn btn-primary display-4" target="_new">Take me to the downloads</a></div></div>    </div>  </div></div><script> 
 document.addEventListener("DOMContentLoaded", function() { 
   if(typeof jQuery === "function") {
     $("#SiteEntry").on("hidden.bs.modal", function () { 
@@ -250,7 +250,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </section><script>
 document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("SiteEntry"); } , 0);
+  if (modalGetCookie("SiteEntry_viewed") == "") {
+    setTimeout( function() {
+      
+        modalSetCookie("SiteEntry_viewed", true, 3600);
+      OpenModal("SiteEntry");
+    } , 1000);
+  }
 });
 </script><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   

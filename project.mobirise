@@ -12972,6 +12972,7 @@
               "height": "100%",
               "display": "flex",
               "flex-flow": "column nowrap",
+              "box-shadow": "10px 10px 10px black",
               "@media (min-width: 992px)": {
                 "& when (@showButtons)": {
                   ".item-content": {
@@ -13108,6 +13109,7 @@
               "height": "100%",
               "display": "flex",
               "flex-flow": "column nowrap",
+              "box-shadow": "10px 10px 10px black",
               "@media (min-width: 992px)": {
                 "& when (@showButtons)": {
                   ".item-content": {

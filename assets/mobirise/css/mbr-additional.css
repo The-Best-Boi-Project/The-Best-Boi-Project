@@ -10594,6 +10594,7 @@ a {
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
+  box-shadow: 10px 10px 10px black;
 }
 @media (min-width: 992px) {
   .cid-to3Rzh78z1 .item-wrapper .item-content {
@@ -10663,6 +10664,7 @@ a {
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
+  box-shadow: 10px 10px 10px black;
 }
 @media (min-width: 992px) {
   .cid-to3RAdmluH .item-wrapper .item-content {

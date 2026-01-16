@@ -9958,6 +9958,9 @@ a {
 .cid-to3Jl81V5o .item-img {
   width: 100%;
   border-radius: 20px;
+  height: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .cid-to3Jl81V5o .item:focus,
 .cid-to3Jl81V5o span:focus {

@@ -3,8 +3,9 @@
   font-display: swap;
   src:  url('mobirise-icons-bold.eot?m1l4yr');
   src:  url('mobirise-icons-bold.eot?m1l4yr#iefix') format('embedded-opentype'),
-    url('mobirise-icons-bold.ttf?m1l4yr') format('truetype'),
+    url('mobirise-icons-bold.woff2?m1l4yr') format('woff2'),
     url('mobirise-icons-bold.woff?m1l4yr') format('woff'),
+    url('mobirise-icons-bold.ttf?m1l4yr') format('truetype'),
     url('mobirise-icons-bold.svg?m1l4yr#mobirise-icons-bold') format('svg');
   font-weight: normal;
   font-style: normal;

@@ -575,6 +575,7 @@ nav .mbr-section-btn {
   -webkit-flex-wrap: wrap;
   -webkit-align-items: center;
   -webkit-justify-content: space-between;
+  background-color: rgba(0,0,0,0.5) !important;
 }
 
 .navbar-collapse {

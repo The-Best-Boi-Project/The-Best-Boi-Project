@@ -964,15 +964,35 @@ blockquote {
 
 /* -------- Custom styles for MeetTheTeam -------- */
 
+.team2 .card-wrapper {
+    display: flex;
+	align-items: center;
+    gap: 2rem;
+}
+
 /* Profile pictures */
-.image-wrapper-wrapper {
+.team2 .image-wrapper-wrapper {
 	width: 25%;
 }
 
-.card-box h5 {
-	font-size: 4rem;
-	margin-top: 0.25em;
+.team2 .card-box {
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-.card-box h6 {
+
+.team2 .card-box p:empty {
+	display: none;
+}
+
+.team2 .card-box > * {
+	margin: 0 !important;
+}
+
+.team2 .card-box h5 {
+	font-size: 4rem;
+}
+.team2 .card-box h6 {
 	font-size: 2rem;
 }

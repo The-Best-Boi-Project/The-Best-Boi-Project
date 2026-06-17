@@ -963,7 +963,7 @@ blockquote {
 
 /* Profile pictures in MeetTheTeam */
 .col-md-4 {
-	width: 25% !important;
+	width: 25%;
 }
 
 .card-box h5 {

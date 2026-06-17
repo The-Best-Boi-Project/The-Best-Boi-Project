@@ -968,6 +968,7 @@ blockquote {
 
 .card-box h5 {
 	font-size: 4rem;
+	margin-top: 0.25em;
 }
 .card-box h6 {
 	font-size: 2rem;

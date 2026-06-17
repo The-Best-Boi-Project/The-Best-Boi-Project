@@ -960,3 +960,15 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+
+/* Profile pictures in MeetTheTeam */
+.col-md-4 {
+	width: 25% !important;
+}
+
+.card-box h5 {
+	font-size: 4rem;
+}
+.card-box h6 {
+	font-size: 2rem;
+}

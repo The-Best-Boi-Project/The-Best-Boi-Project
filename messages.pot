@@ -1,0 +1,498 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-06-18 22:54+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: app/templates/base.html.jinja:10 app/templates/index.html.jinja:3
+msgid "Bestboi Project"
+msgstr ""
+
+#: app/templates/index.html.jinja:21 app/templates/parts/nav.html.jinja:23
+msgid "The Bestboi Project"
+msgstr ""
+
+#: app/templates/index.html.jinja:25 app/templates/lore.html.jinja:25
+msgid ""
+"Welcome to our website! This is the main information home for the Bestboi"
+" Project and Foxdragon species."
+msgstr ""
+
+#: app/templates/index.html.jinja:27 app/templates/lore.html.jinja:27
+msgid ""
+"You can download our free VRChat models, join our Discord community, "
+"learn more about the project, meet out staff, or view our species' lore "
+"with the links below!"
+msgstr ""
+
+#: app/templates/index.html.jinja:34 app/templates/models.html.jinja:3
+#: app/templates/models.html.jinja:21
+msgid "Model Hub"
+msgstr ""
+
+#: app/templates/index.html.jinja:40 app/templates/lore.html.jinja:3
+#: app/templates/parts/nav.html.jinja:216
+msgid "Lore"
+msgstr ""
+
+#: app/templates/index.html.jinja:48
+msgid "Discord Community"
+msgstr ""
+
+#: app/templates/index.html.jinja:62
+msgid "What is the Bestboi Project?"
+msgstr ""
+
+#: app/templates/index.html.jinja:68
+msgid ""
+"The Bestboi Project is a group primarily based out of VRChat and similar "
+"VR games. We are one of the oldest currently running VRChat furry "
+"communities, with ties dating back to early 2017."
+msgstr ""
+
+#: app/templates/index.html.jinja:70
+msgid ""
+"These days we mainly operate out of our community Discord, which is host "
+"to over 2200 members. Despite the big size, the community is tight-knit, "
+"but still very welcoming to newcomers."
+msgstr ""
+
+#: app/templates/index.html.jinja:73
+msgid ""
+"Our models are created by our dedicated Bestboi creation team, funded by "
+"our Patreon and other sources. We are dedicated to creating high-quality,"
+" easy to edit, and fully customizable free models."
+msgstr ""
+
+#: app/templates/index.html.jinja:84
+msgid "You got a friend in me"
+msgstr ""
+
+#: app/templates/index.html.jinja:89
+msgid "Friendship"
+msgstr ""
+
+#: app/templates/index.html.jinja:93
+msgid "Meet new friends!"
+msgstr ""
+
+#: app/templates/index.html.jinja:104
+msgid "4th anniversary"
+msgstr ""
+
+#: app/templates/index.html.jinja:109
+msgid "Events"
+msgstr ""
+
+#: app/templates/index.html.jinja:113
+msgid "Join many of our events such as meetings and movie nights!"
+msgstr ""
+
+#: app/templates/index.html.jinja:124
+msgid "Hell"
+msgstr ""
+
+#: app/templates/index.html.jinja:129
+msgid "Fun"
+msgstr ""
+
+#: app/templates/index.html.jinja:133
+msgid "Experience the funny haha"
+msgstr ""
+
+#: app/templates/lore.html.jinja:21
+msgid "The Bestboi Lore"
+msgstr ""
+
+#: app/templates/lore.html.jinja:35 app/templates/lore.html.jinja:51
+msgid "Book One"
+msgstr ""
+
+#: app/templates/lore.html.jinja:54
+msgid "This is were it all begins."
+msgstr ""
+
+#: app/templates/lore.html.jinja:55
+msgid "Click on an image to open it in the viewer for easier reading!"
+msgstr ""
+
+#: app/templates/lore.html.jinja:64 app/templates/lore.html.jinja:69
+msgid "Cover"
+msgstr ""
+
+#: app/templates/lore.html.jinja:69 app/templates/lore.html.jinja:84
+#: app/templates/lore.html.jinja:99 app/templates/lore.html.jinja:114
+#: app/templates/lore.html.jinja:129 app/templates/lore.html.jinja:144
+#: app/templates/lore.html.jinja:159 app/templates/lore.html.jinja:174
+#: app/templates/lore.html.jinja:189
+#, python-format
+msgid "Page %(number)i - %(title)s"
+msgstr ""
+
+#: app/templates/lore.html.jinja:79 app/templates/lore.html.jinja:84
+msgid "Fox Dragons"
+msgstr ""
+
+#: app/templates/lore.html.jinja:94 app/templates/lore.html.jinja:99
+msgid "Anatomy and Traits"
+msgstr ""
+
+#: app/templates/lore.html.jinja:109 app/templates/lore.html.jinja:114
+msgid "More Traits"
+msgstr ""
+
+#: app/templates/lore.html.jinja:124 app/templates/lore.html.jinja:129
+msgid "Surface Society"
+msgstr ""
+
+#: app/templates/lore.html.jinja:139 app/templates/lore.html.jinja:144
+msgid "Surface Society continued"
+msgstr ""
+
+#: app/templates/lore.html.jinja:154 app/templates/lore.html.jinja:159
+msgid "Underground Society"
+msgstr ""
+
+#: app/templates/lore.html.jinja:169 app/templates/lore.html.jinja:174
+msgid "Lunar Society"
+msgstr ""
+
+#: app/templates/lore.html.jinja:184 app/templates/lore.html.jinja:189
+msgid "Geography"
+msgstr ""
+
+#: app/templates/models.html.jinja:34
+msgid "Bestbois"
+msgstr ""
+
+#: app/templates/models.html.jinja:48 app/templates/models.html.jinja:470
+#: app/templates/parts/nav.html.jinja:193
+msgid "Community Models"
+msgstr ""
+
+#: app/templates/models.html.jinja:67
+msgid "Official Bestboi Downloads"
+msgstr ""
+
+#: app/templates/avatars/avatar-kemono.html.jinja:3
+#: app/templates/avatars/avatar-kemono.html.jinja:21
+#: app/templates/models.html.jinja:110 app/templates/models.html.jinja:121
+msgid "Bestboi Kemono"
+msgstr ""
+
+#: app/templates/models.html.jinja:131
+msgid "The newest of the bunch, a cute <b>kemono</b>-styled bestboi!"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:68
+#: app/templates/models.html.jinja:141 app/templates/models.html.jinja:197
+#: app/templates/models.html.jinja:244 app/templates/models.html.jinja:296
+#: app/templates/models.html.jinja:343 app/templates/models.html.jinja:390
+#: app/templates/models.html.jinja:506
+msgid "Download"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:52
+#: app/templates/models.html.jinja:166 app/templates/models.html.jinja:177
+#: app/templates/parts/nav.html.jinja:83
+msgid "Bestboi Chibi"
+msgstr ""
+
+#: app/templates/models.html.jinja:187
+msgid "The bestboi we all love, now in a cute <b>chibi</b> and polished style!"
+msgstr ""
+
+#: app/templates/models.html.jinja:213 app/templates/models.html.jinja:224
+#: app/templates/parts/nav.html.jinja:87
+msgid "Bestboi HD"
+msgstr ""
+
+#: app/templates/models.html.jinja:234
+msgid "The third model to join the club! Bestbois in ✨<b>HD</b>✨"
+msgstr ""
+
+#: app/templates/models.html.jinja:265 app/templates/models.html.jinja:276
+#: app/templates/parts/nav.html.jinja:91
+msgid "Bestboi Toon"
+msgstr ""
+
+#: app/templates/models.html.jinja:286
+msgid "Toonier then ever, presenting to you: The <b>Toon</b> Boi!"
+msgstr ""
+
+#: app/templates/models.html.jinja:475
+msgid "Models made by talented creators!"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:3
+msgid "Support us"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:23
+msgid "Support the Project"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:44
+#: app/templates/support-us.html.jinja:62
+msgid "Options"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:67
+msgid "Not many but they still mean a lot to us"
+msgstr ""
+
+#: app/templates/parts/footer.html.jinja:27
+#: app/templates/parts/nav.html.jinja:271
+#: app/templates/support-us.html.jinja:76
+msgid "Discord"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:83
+msgid "Long-Term Donations"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:89
+msgid ""
+"Looking to donate long term and get some neat rewards for your support? "
+"Try subscribing on Discord!"
+msgstr ""
+
+#: app/templates/support-us.html.jinja:100
+msgid "Subscribe"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:226 app/templates/worlds.html.jinja:3
+msgid "Worlds"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:21
+msgid "Bestboi Worlds"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:25
+msgid ""
+"VRChat maps created for our community, crafted together to serve as "
+"places for bestbois to meet and have fun!"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:34
+msgid "Maps"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:48
+msgid "Active Maps"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:62
+msgid "Bestboi Island Homes"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:66
+msgid ""
+"Nestled deep within a mountain crevice, with avatars, video player, and "
+"more."
+msgstr ""
+
+#: app/templates/worlds.html.jinja:76 app/templates/worlds.html.jinja:108
+msgid "Show on VRChat.com"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:91
+msgid "Bestboi Tavern"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:95
+msgid ""
+"A small and cozy inn, the Bestboi Tavern offers a relaxing environment "
+"for hosting events and meetups. With a warm fireplace and a cozy spot to "
+"chill, it can act as a homeworld, meetingplace, and so much more!"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:97
+msgid "Mainly Used for Meetups"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:123
+msgid "Archive"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:139
+msgid "Bestboi Valley"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:165
+msgid "Being Restored"
+msgstr ""
+
+#: app/templates/worlds.html.jinja:206 app/templates/worlds.html.jinja:239
+#: app/templates/worlds.html.jinja:271
+msgid "Unavailable"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:55
+msgid "New bestboi in a cute polished chibi style!"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:58
+msgid "You can move the preview on the right."
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:76
+msgid "Download SPP"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:84
+msgid "Clothing"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:103
+msgid "Chibi Downloads"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:108
+msgid ""
+"All models are completely free, but please donate if you are able to so "
+"we can deliver more content to you!"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:122
+msgid "Chibi (VRChat Ready)"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:126
+msgid ""
+"A unity package already preconfigured with the boi for easy uploading and"
+" editing"
+msgstr ""
+
+#: app/templates/avatars/avatar-chibi.html.jinja:136
+#: app/templates/avatars/avatar-chibi.html.jinja:173
+#: app/templates/avatars/avatar-classic.html.jinja:121
+#: app/templates/avatars/avatar-dutchie.html.jinja:88
+#: app/templates/avatars/avatar-hd.html.jinja:146
+#: app/templates/avatars/avatar-hd.html.jinja:185
+#: app/templates/avatars/avatar-kemono.html.jinja:88
+#: app/templates/avatars/avatar-low-poly.html.jinja:119
+#: app/templates/avatars/avatar-toon.html.jinja:131
+#, python-format
+msgid "Download on %(platform)s"
+msgstr ""
+
+#: app/templates/errors/404.html.jinja:3 app/templates/errors/500.html.jinja:3
+msgid "Oh boi..."
+msgstr ""
+
+#: app/templates/errors/404.html.jinja:21
+#: app/templates/errors/500.html.jinja:21
+msgid "Oopsies"
+msgstr ""
+
+#: app/templates/errors/404.html.jinja:25
+msgid ""
+"That part of the website is either unfinished or does not exist in the "
+"void we call the world wide web"
+msgstr ""
+
+#: app/templates/errors/404.html.jinja:33
+#: app/templates/errors/418.html.jinja:46
+#: app/templates/errors/500.html.jinja:37
+msgid "Return Home"
+msgstr ""
+
+#: app/templates/errors/418.html.jinja:3
+msgid "You want some tea?"
+msgstr ""
+
+#: app/templates/errors/418.html.jinja:22
+msgid "Ah yes, this is scrumptious"
+msgstr ""
+
+#: app/templates/errors/418.html.jinja:30
+msgid "I'm a teapot"
+msgstr ""
+
+#: app/templates/errors/418.html.jinja:39
+msgid "More about HTTP 418"
+msgstr ""
+
+#: app/templates/errors/500.html.jinja:25
+msgid ""
+"Well, that wasn't supposed to happen... If you see this page, something "
+"went VERY wrong!"
+msgstr ""
+
+#: app/templates/errors/500.html.jinja:28
+#, python-format
+msgid "Developer clue: %(error)s"
+msgstr ""
+
+#: app/templates/parts/footer.html.jinja:13
+msgid "Home Page"
+msgstr ""
+
+#: app/templates/parts/footer.html.jinja:20
+#: app/templates/parts/nav.html.jinja:56
+msgid "Models"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:14
+msgid "Spin Boi"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:36
+msgid "Toggle navigation"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:70
+msgid "Official Models"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:79
+msgid "Besboi Kemono"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:95
+msgid "Bestboi Classic"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:99
+msgid "Bestboi Lowpoly"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:202
+msgid "Bestboi HD Dutch Angel Dragon"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:236
+msgid "About"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:246
+msgid "Support us!"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:259
+msgid "Socials"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:278
+msgid "Twitter"
+msgstr ""
+
+#: app/templates/parts/nav.html.jinja:285
+msgid "YouTube"
+msgstr ""
+

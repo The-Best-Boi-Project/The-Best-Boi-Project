@@ -961,8 +961,11 @@ blockquote {
 	left: -2400px;
 }
 
-/* Profile pictures in MeetTheTeam */
-.col-md-4 {
+
+/* -------- Custom styles for MeetTheTeam -------- */
+
+/* Profile pictures */
+.image-wrapper-wrapper {
 	width: 25%;
 }
 

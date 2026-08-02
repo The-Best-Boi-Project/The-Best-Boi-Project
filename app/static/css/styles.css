@@ -16,6 +16,7 @@ body {
     font-weight: 400;
     color: var(--font-color);
     position: relative;
+	background: #232323;
 }
 
 button {

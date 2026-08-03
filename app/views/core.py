@@ -259,6 +259,8 @@ def team():
                     "subtitle": "3D modeler & texture artist, VRCSDK specialist",
                     "description": "Did the initial Avatars 3.0 setup for the Bestboi HD, Toon, and Classic.",
                 },
+                {"name": "Eevibow", "subtitle": "", "description": ""},
+                {"name": "Cobra Witch", "subtitle": "", "description": ""},
             ],
         },
         "former-3d-artists": {
